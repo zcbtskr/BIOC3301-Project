@@ -1,7 +1,7 @@
 ### BIOC3301-Project
 
 ##### Scripts Folder:
-This folder contains all the scripts and analyses of the sequencing data and were all included in my lab report.
+This folder contains all scripts that were included in my lab report.
 
 1)	Copy the folder containing the sequencing data files to the Cirrus home directory.
 
