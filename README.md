@@ -29,6 +29,6 @@ Eventhough these scripts were NOT a part of my lab report, I ran them just in ca
 
 1) Run the make_otu_heatmap.py script to visualize the OTU table as a heatmap.
 
-2) G-Test can be ran (similar to ANOSIM) using compare_distance_matrices.py.
+2) G-Test can be ran (similar to ANOSIM) using the group_significance.py script, comparing the abundance of OTUs in different samples.
 
 3) Create box plots to allow comparison between different categories found within the mapping file using the make_distance_boxplots.py script.
