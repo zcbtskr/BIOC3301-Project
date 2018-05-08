@@ -1,5 +1,6 @@
 ### BIOC3301-Project
 
+##### Scripts Folder:
 1)	Copy the folder containing the sequencing data files to the Cirrus home directory.
 
 2)	Verify the mapping file containing sample metadata with validate_mapping_file.py.
@@ -12,10 +13,20 @@
 
 6)	Perform core diversity analysis using core_diversity_analysis.py to generate taxa summaries and rarefaction curves for alpha diversity and 3D UniFrac PCoA plots for beta diversity.
 
-7)	Convert the 3D PCoA plots from 3D to 2D using make_2d_plots script to visualise beta diversity. 
+7)	Convert the PCoA plots from 3D to 2D using make_2d_plots script to visualise beta diversity. 
 
 8)	Compare alpha diversity using a non-parametric two-sample t-test, with compare_alpha_diversity.py. 
 
-9)	Compare categories with compare_categories.py to analyse statistical significance of variables on microbial diversity.
+9)	Compare categories with compare_categories.py to analyse statistical significance of variables on microbial diversity (in this case using ANOSIM)
 
 10)	Compare weighted and un-weighted UniFrac distance matrices using a partial mantel test, with compare_distance_matrices.py.
+
+##### FurtherAnalysis Folder:
+This folder contains further scripts that can be ran to undertake extended analysis of the sequencing data.
+Eventhough these scripts were NOT a part of my lab report, I ran them just in case.
+
+1) Run the make_otu_heatmap.py script to visualize the OTU table as a heatmap.
+
+2) G-Test can be ran (similar to ANOSIM) using compare_distance_matrices.py.
+
+3) Create box plots to allow comparison between different categories found within the mapping file using the make_distance_boxplots.py script.
